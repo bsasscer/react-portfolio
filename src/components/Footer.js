@@ -8,7 +8,7 @@ const Footer = () => (
             <li><NavLink to="#"></NavLink></li>
             <li><NavLink to="#"></NavLink></li>
         </ul>
-        <p>Copyright 2018 Bianca Sasscer</p>
+        <p>Copyright 2018 Josephine Shmoe</p>
     </footer>
 );
 

@@ -3,7 +3,7 @@ import React from 'react';
 const About = (props) => (
     <div className="about-container">
         <div className="item main-about-text">
-            <h1 className="headline">I'm Joe Shmoe.</h1>
+            <h1 className="headline">I'm Josephine Shmoe.</h1>
             <p>For 3+ years I have been using my creativity and problem-solving skills to translate user feedback into scalable solutions.</p>
         </div>
         <div className="item portrait">
