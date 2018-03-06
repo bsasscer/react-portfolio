@@ -1,11 +1,19 @@
 import React from 'react';
+import Entry from './Entry';
+import entries from '../entries';
 
 
-const Work = () => (
-    <div className="selected-projects">
-        <h2>Selected Works</h2>
+class Work extends React.Component {
 
-    </div>
-);
+    render() {
+        return (
+            <ul className="entries">
+                {Object.keys(entries).map(key => (
+                    <Entry key={key} details={entries[key]} />
+                ))}
+            </ul>
+        );
+    }
+}
 
 export default Work;
