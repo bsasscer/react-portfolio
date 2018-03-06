@@ -7,11 +7,14 @@ class Work extends React.Component {
 
     render() {
         return (
-            <ul className="entries">
-                {Object.keys(entries).map(key => (
-                    <Entry key={key} details={entries[key]} />
-                ))}
-            </ul>
+            <div>
+                <h1>Selected Work</h1>
+                <ul className="entries">
+                    {Object.keys(entries).map(key => (
+                        <Entry key={key} details={entries[key]} />
+                    ))}
+                </ul>
+            </div>
         );
     }
 }
