@@ -4,10 +4,14 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="main-content home">
-                <h1>Josephine Shmoe</h1>
-                <h2>Full Stack Web developer living and working in Saskatchewan.</h2>
-                <img src="../../images/placeholder-hero.jpg" />
+            <div className="home">
+                <div className="home-copy">
+                    <h1 className="intro-header">Josephine Shmoe</h1>
+                    <p className="intro-desc">A Full Stack Developer living and working in Saskatchewan.</p>
+                </div>
+                <div className="home-img">
+                    <img src="../../images/placeholder-hero.jpg" />
+                </div>
             </div>
         );
     }
