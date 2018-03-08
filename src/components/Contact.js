@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ContactForm from './ContactForm';
 
 class Contact extends React.Component {
-
     render() {
         return (
             <div>
