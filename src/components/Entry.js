@@ -5,7 +5,7 @@ class Entry extends React.Component {
     render() {
         const { company, title, image, desc } = this.props.details;
         return (
-            <li>
+            <div className="entry">
                 <div className="entry-img">
                     <img src={image} alt={title} />
                 </div>
@@ -19,7 +19,7 @@ class Entry extends React.Component {
                     <p>{desc}</p>
                     <button>See Case Study</button>
                 </div>
-            </li>
+            </div>
         );
     }
 }

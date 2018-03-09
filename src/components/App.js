@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
     BrowserRouter,
     Route,
@@ -22,7 +22,7 @@ const App = () => (
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/work" component={Work} />
-                <Route exact path="/contact" component={Contact} />
+                {/* <Route exact path="/contact" component={Contact} /> */}
             </Switch>
             <Footer />
         </div>

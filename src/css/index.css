@@ -30,9 +30,11 @@ body {
     background-image: radial-gradient(hsla(249, 50%, 16%, 1.00) 9%, transparent 0);
     background-size: 35px 35px;
     color: #fff;
+    display: flex;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
     margin: 0;
+    min-height: 100vh;
     padding: 0;
 }
 
@@ -72,10 +74,8 @@ body {
 ***************************/
 
 .about {
-    display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 1060px;
     position: relative;
 }
 
@@ -138,9 +138,13 @@ h3 {
     WORK LAYOUT
 ***************************/
 
-.entries li {
-    display: grid;
-    grid-template-columns: 50% 50%;
+.entries {
+    flex-wrap: wrap;
+}
+
+.entry-img,
+.entry-copy {
+    flex: 1;
 }
 
 .entry-img img {
@@ -194,7 +198,7 @@ h3 {
 }
 
 .main-nav a:hover {
-    color: #0b0b0b;
+    color: #EF7B45;
 }
 
 .site-logo {
@@ -209,8 +213,22 @@ img {
     FOOTER
 ***************************/
 
+.footer {
+    flex: 1;
+    height: 100px;
+    text-align: center;
+}
+
 .copyright {
     font-size: 1rem;
+}
+
+.email a {
+    text-decoration: none;
+}
+
+.email a:hover {
+    color: #EF7B45;
 }
 
 /**************************
@@ -220,7 +238,10 @@ img {
 @media (min-width: 769px) {
 
     .main-header,
-    .main-nav {
+    .main-nav,
+    .entries,
+    .entry,
+    .footer {
         display: flex;
     }
 
