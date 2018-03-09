@@ -48,15 +48,10 @@ body {
     HOME LAYOUT
 ***************************/
 
-.home {
+.middle {
     display: grid;
     grid-template-columns: 50% 50%;
     margin: 2em auto;
-}
-
-.intro-header {
-    font-family: 'Playfair Display', serif;
-    font-size: 3.5rem;
 }
 
 .intro-desc {
@@ -64,7 +59,7 @@ body {
     line-height: 1.25;
 }
 
-.home-img img {
+.another-img img {
     height: auto;
     width: 100%;
 }
@@ -216,20 +211,29 @@ img {
 .footer {
     flex: 1;
     height: 100px;
-    text-align: center;
 }
 
 .copyright {
     font-size: 1rem;
 }
 
-.email a {
+.socials {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 46%;
+}
+
+.socials a {
     text-decoration: none;
 }
 
-.email a:hover {
+.socials a:hover {
     color: #EF7B45;
 }
+
+
 
 /**************************
     MEDIA QUERIES

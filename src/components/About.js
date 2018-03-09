@@ -11,6 +11,14 @@ class About extends React.Component {
                 <div className="item portrait">
                     <img src="../../images/test-portrait.jpg" />
                 </div>
+                <div className="middle">
+                    <div className="middle-copy">
+                        <p className="intro-desc">Banjo bitters vinyl iceland occupy. Edison bulb knausgaard semiotics authentic art party church-key tote bag kogi locavore cliche pork belly.</p>
+                    </div>
+                    <div className="another-img">
+                        <img src="../../images/placeholder-hero.jpg" />
+                    </div>
+                </div>
                 <h2 className="headline interests-headline">Some Favorite Things</h2>
                 <div className="item about-facts">
                     <ul>
