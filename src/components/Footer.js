@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Footer = () => (
     <footer className="footer">
         <ul className="socials">
-            <li><NavLink to="#">Github</NavLink></li>
+            <li><NavLink to="#">GitHub</NavLink></li>
             <li><NavLink to="#">LinkedIn</NavLink></li>
             <li><NavLink to="#">Twitter</NavLink></li>
             <li><a href="mailto:jshmoe@gmail.com">Email</a></li>
