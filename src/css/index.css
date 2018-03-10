@@ -137,9 +137,17 @@ h3 {
     flex-wrap: wrap;
 }
 
+.entry {
+    margin: 1em 0;
+}
+
 .entry-img,
 .entry-copy {
     flex: 1;
+}
+
+.entry-copy {
+    padding: 0 1.5rem;
 }
 
 .entry-img img {

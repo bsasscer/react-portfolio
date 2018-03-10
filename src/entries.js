@@ -4,7 +4,7 @@ const entries = {
         title: "Website Design and Development",
         image: "/images/daria-nepriakhina-474036-unsplash.jpg",
         desc:
-            "Kale chips chicharrones tumblr single-origin coffee slow-carb umami intelligentsia authentic tacos."
+            "Forage blue bottle woke scenester la croix, snackwave unicorn. Hell of truffaut 90's, readymade stumptown gastropub tattooed asymmetrical poke XOXO you probably haven't heard of them. Semiotics meh meggings narwhal. Art party hot chicken irony raw denim biodiesel, literally taxidermy shoreditch offal drinking vinegar. Blog roof party YOLO kitsch, post-ironic actually meditation tattooed XOXO mlkshk jean shorts viral waistcoat kombucha retro. Chillwave locavore kinfolk tofu forage sustainable."
     },
 
     entry2: {

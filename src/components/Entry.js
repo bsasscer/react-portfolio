@@ -17,7 +17,7 @@ class Entry extends React.Component {
                         {title}
                     </h2>
                     <p>{desc}</p>
-                    <button>See Case Study</button>
+                    {/* <button>See Case Study</button> */}
                 </div>
             </div>
         );
