@@ -45,6 +45,10 @@ body {
     ABOUT LAYOUT
 ***************************/
 
+.my-name {
+    padding-left: 10px;
+}
+
 .multicol {
     column-width: 450px;
     column-gap: 20px;
@@ -58,8 +62,12 @@ body {
 }
 
 .portrait {
-    margin: auto;
-    width: 100%;
+    background: url('/images/matheus-ferrero-551834-unsplash.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    height: 350px;
+    margin: 0 auto;
+    width: 350px;
 }
 
 .flex {
@@ -198,7 +206,7 @@ img {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    width: 46%;
+    width: 30%;
 }
 
 .socials a {
@@ -239,6 +247,18 @@ img {
     }
 }
 
+@media (max-width: 750px) {
+    .socials {
+        flex-direction: column;
+    }
+
+    .socials li {
+        margin: 10px 0 10px 0;
+    }
+}
+
+
+
 @media (min-width: 1025px) {
     .main-header {
         flex-direction: row;
@@ -257,4 +277,5 @@ img {
         margin-left: .65em;
         margin-right: .65em;
     }
+
 }
