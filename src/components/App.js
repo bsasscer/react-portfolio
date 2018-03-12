@@ -15,14 +15,16 @@ import Work from './Work';
 
 const App = () => (
     <BrowserRouter>
-        <div className="container">
+        <div>
             <Header />
-            <Switch>
-                <Route exact path="/" component={About} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/work" component={Work} />
-                {/* <Route exact path="/contact" component={Contact} /> */}
-            </Switch>
+            <div className="container">
+                <Switch>
+                    <Route exact path="/" component={About} />
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/work" component={Work} />
+                    {/* <Route exact path="/contact" component={Contact} /> */}
+                </Switch>
+            </div>
             <Footer />
         </div>
   </BrowserRouter>

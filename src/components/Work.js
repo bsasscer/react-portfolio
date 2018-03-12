@@ -7,6 +7,7 @@ class Work extends React.Component {
     render() {
         return (
             <div className="entries">
+                <h2>Selected Work</h2>
                 {Object.keys(entries).map(key => (
                     <Entry key={key} details={entries[key]} />
                 ))}

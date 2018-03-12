@@ -2,12 +2,11 @@
     ELEMENT STYLES
 ********************************/
 
-.headline {
-    font-family: 'Playfair Display', serif;
-}
-
-p {
-    line-height: 1.6;
+h1,
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
+    letter-spacing: 1px;
 }
 
 ol,
@@ -26,13 +25,10 @@ ul {
 }
 
 body {
-    background: hsl(248, 49%, 12%);
-    background-image: radial-gradient(hsla(249, 50%, 16%, 1.00) 9%, transparent 0);
-    background-size: 35px 35px;
-    color: #fff;
+    background: #fff;
+    color: #444;
     display: flex;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1rem;
     margin: 0;
     min-height: 100vh;
     padding: 0;
@@ -44,9 +40,37 @@ body {
     padding-right: 2.5rem;
 }
 
+
 /**************************
-    HOME LAYOUT
+    ABOUT LAYOUT
 ***************************/
+
+.multicol {
+    column-width: 450px;
+    column-gap: 20px;
+    line-height: 1.8;
+    padding: 10px;
+}
+
+.multicol p {
+    font-size: 1.1875rem;
+    margin: 0 0 1em 0;
+}
+
+.portrait {
+    margin: auto;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex > * {
+    flex: 1 1 250px;
+    margin: 10px;
+}
 
 .middle {
     display: grid;
@@ -62,71 +86,6 @@ body {
 .another-img img {
     height: auto;
     width: 100%;
-}
-
-/**************************
-    ABOUT LAYOUT
-***************************/
-
-.about {
-    flex-wrap: wrap;
-    margin: 0 auto;
-    position: relative;
-}
-
-.main-about-text {
-    background-color: #fff;
-    border-left: 6px solid #d64933;
-    color: #444;
-    padding: 0 15px;
-    position: absolute;
-    top: 25%;
-    width: 40%;
-    z-index: 50;
-
-}
-
-.portrait {
-    margin: auto;
-    width: 80%;
-}
-
-.interests-headline {
-    text-align: center;
-    width: 100%;
-
-}
-
-.about-facts {
-    left: 35px;
-    margin: 0 auto;
-    max-width: 630px;
-    position: relative;
-
-}
-
-.about-facts ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    line-height: 1.3;
-}
-
-.about-facts li {
-    line-height: 1.5;
-    padding: 10px 0;
-    width: 50%;
-}
-
-h3 {
-    letter-spacing: 1px;
-    margin: 0;
-}
-
-.about-facts span {
-    display: inline-block;
-    line-height: 1.3;
-    max-width: 240px;
 }
 
 /**************************
@@ -148,6 +107,11 @@ h3 {
 
 .entry-copy {
     padding: 0 1.5rem;
+}
+
+.entry-copy p {
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 .entry-img img {
@@ -184,15 +148,17 @@ h3 {
 }
 
 .main-nav {
+    font-size: 	1.125rem;
+    letter-spacing: 1px;
     list-style-type: none;
     margin-top: 1.5em;
     text-decoration: none;
 }
 
 .main-nav a {
-    color: #fff;
+    color: #444;
     display: block;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Abril Fatface', cursive;
     font-size: 1.125em;
     font-weight: 700;
     padding: .4em;
@@ -217,8 +183,10 @@ img {
 ***************************/
 
 .footer {
+    border-top: 1px solid #CDEDF6;
     flex: 1;
     height: 100px;
+    margin: 100px 0 30px 0;
 }
 
 .copyright {
@@ -269,7 +237,6 @@ img {
         margin: 2em 0 4em 0;
         padding-left: 0;
     }
-
 }
 
 @media (min-width: 1025px) {

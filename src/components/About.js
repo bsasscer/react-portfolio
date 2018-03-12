@@ -3,13 +3,14 @@ import React from 'react';
 class About extends React.Component {
     render() {
         return (
-            <div className="about">
-                <div className="item main-about-text">
-                    <h1 className="headline">I'm Josephine Shmoe.</h1>
-                    <p>For 3+ years I have been using my creativity and problem-solving skills to translate user feedback into scalable solutions.</p>
-                </div>
+            <div>
+                <h2>I'm Josephine Shmoe</h2>
                 <div className="item portrait">
                     <img src="../../images/test-portrait.jpg" />
+                </div>
+                <div className="about wrapper multicol">
+                    <p>For 3+ years I have been using my creativity and problem-solving skills to translate user feedback into scalable solutions. The first ascent, made in June from the Paris Observatory, though a lofty one, was attended with so much danger and confusion as to be barren of results. The departure, owing to stormy weather, was hurried and illordered, so that the velocity in rising was excessive, the net constricted the rapidly-swelling globe, and the volumes of out-rushing gas half-suffocated the voyagers. Then a large rent occurred, which caused an alarmingly rapid fall, and the two philosophers were reduced to the necessity of flinging away all they possessed, their instruments only excepted. The landing, in a vineyard, was happily not attended with disaster, and within a month the same two colleagues attempted a second aerial excursion, again in wet weather.
+                    </p>
                 </div>
                 <div className="middle">
                     <div className="middle-copy">
@@ -18,35 +19,6 @@ class About extends React.Component {
                     <div className="another-img">
                         <img src="../../images/placeholder-hero.jpg" />
                     </div>
-                </div>
-                <h2 className="headline interests-headline">Some Favorite Things</h2>
-                <div className="item about-facts">
-                    <ul>
-                        <li>
-                            <h3>Camping & Hiking</h3>
-                            <span>When I'm not building web apps, you can find me deep on a backpacking trail.</span>
-                        </li>
-                        <li>
-                            <h3>Page-Turners</h3>
-                            <span>Book suggestions welcome. I'm currently obsessed with dystopian fiction of <i>The Handmaid's Tale</i> variety.</span>
-                        </li>
-                        <li>
-                            <h3>Dogs</h3>
-                            <span>I don't have a dog currently, but if I did it would be either a Lab or a German Shepherd. Life goals.</span>
-                        </li>
-                        <li>
-                            <h3>Coffee</h3>
-                            <span>One of the key ingredients to a great morning is a latte.</span>
-                        </li>
-                        <li>
-                            <h3>Podcasts</h3>
-                            <span>Lore is my jam.</span>
-                        </li>
-                        <li>
-                            <h3>Good beer & good company</h3>
-                            <span>I've taken trips dedicated to beer, the most recent involving Oktoberfest in Munich, Germany.</span>
-                        </li>
-                    </ul>
                 </div>
             </div>
         );
