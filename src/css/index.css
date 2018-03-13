@@ -96,6 +96,39 @@ body {
     width: 100%;
 }
 
+.skills-donut-chart {
+    width: 10px;
+}
+
+.skills-key {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.skill-color {
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    width: 12px;
+    height: 12px;
+    z-index: 3;
+}
+
+.skill-web {
+    background: #5934f6;
+}
+
+.skill-ui {
+    background: #663354;
+}
+
+.skill-mobile {
+    background: #20604b;
+}
+
+
 /**************************
     WORK LAYOUT
 ***************************/
