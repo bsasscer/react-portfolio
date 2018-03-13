@@ -64,6 +64,7 @@ body {
 .portrait {
     background: url('/images/matheus-ferrero-551834-unsplash.jpg') no-repeat;
     background-size: cover;
+    border: 15px solid violet;
     border-radius: 50%;
     height: 350px;
     margin: 0 auto;
@@ -96,15 +97,15 @@ body {
     width: 100%;
 }
 
-.skills-donut-chart {
-    width: 10px;
-}
-
 .skills-key {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     width: 60%;
+}
+
+.skill-type p {
+    font-size: 1.25rem;
 }
 
 .skill-color {
